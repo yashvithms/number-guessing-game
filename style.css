@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+.game {
+    width: 380px;
+
+    padding: 35px;
+
+    text-align: center;
+
+    background: white;
+
+    border-radius: 20px;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #333;
+
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+}
+
+input {
+    width: 100%;
+
+    padding: 12px;
+
+    margin: 15px 0;
+
+    font-size: 16px;
+
+    border: 2px solid #ddd;
+
+    border-radius: 8px;
+
+    outline: none;
+}
+
+input:focus {
+    border-color: #667eea;
+}
+
+button {
+    width: 100%;
+
+    padding: 12px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #667eea;
+
+    color: white;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover {
+    background: #5568d8;
+}
+
+#message {
+    color: #667eea;
+
+    margin: 20px 0;
+}
+
+#attempts {
+    font-weight: bold;
+
+    color: #764ba2;
+}
+
+.restart {
+    background: #333;
+
+    margin-top: 10px;
+}
+
+.restart:hover {
+    background: #111;
+}
